@@ -1,11 +1,14 @@
 body{
-	background: url(../img/background-img.jpg);
  font-family: "Gill Sans", sans-serif;
   background-size: 100%;
+}
+.first_past{
+	background: url(../img/background-img.jpg);
 }
 .logo{
 	position: relative;
 	left: 70px;
+	z-index: 3;
 	top: 30px;
 	width: 166px;
 	height: 33px;
@@ -56,7 +59,7 @@ body{
 .second_past{
 	background: white;
 	width: 2150px;
-	height: 2150px;
+	height: 1250px;
 	margin-top: 300px;
 	margin-left: -50px;
 }
@@ -215,4 +218,82 @@ body{
 	top: 350px;
 	font-size: 25px; 
 	color: #8a8a8a;
+}
+body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.box1 {
+  height: 100px;
+  background-color: white;
+  position: relative;
+  z-index: 3;
+}
+
+.box2 {
+  height: 100px;
+  background-color: white;
+}
+
+.box3 {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  z-index: -5;
+  width: 1920px;
+  height: 1080px;
+  background: url(..//img/background_phone.jpg) no-repeat; 
+  background-size: 100%;
+}
+
+.box4 {
+  margin-top: 400px;
+  height: 600px;
+  background-color: white;
+}
+.btn_top{
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #bababa;
+  background: grey;
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  line-height: 40px;
+}
+.results_showing{
+	color: font-weight: bold;
+	font-size: 90px;
+	text-align: center;
+	margin-top: -300px;
+	color: white;
+}
+.product_text2{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	position: relative;
+	top: -40px;
+}
+.results_showing2{
+	color: font-weight: bold;
+	font-size: 90px;
+	text-align: center;
+	margin-top: 100px;
+	color: white;
+}
+.product_text3{
+	text-align: center;
+	color: grey;
+	font-size: 20px;
+	position: relative;
+	top: -40px;
 }
