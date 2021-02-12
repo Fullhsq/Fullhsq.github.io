@@ -1,6 +1,7 @@
 body{
  font-family: "Gill Sans", sans-serif;
   background-size: 100%;
+  width: 900px;
 }
 .first_past{
 	background: url(../img/background-img.jpg);
@@ -22,7 +23,7 @@ body{
 	font-weight: bold;
 }
 .underline{
-	width: 2150px;
+	width: 1900px;
 	height: 1px;
 	background-color: #d6d6d6;
 	position: relative;
@@ -58,7 +59,7 @@ body{
 }
 .second_past{
 	background: white;
-	width: 2150px;
+	width: 1900px;
 	height: 1250px;
 	margin-top: 300px;
 	margin-left: -50px;
@@ -233,7 +234,7 @@ body{
 }
 
 .box2 {
-  height: 100px;
+  height: 50px;
   background-color: white;
 }
 
@@ -244,14 +245,15 @@ body{
   z-index: -5;
   width: 1920px;
   height: 1080px;
-  background: url(..//img/background_phone.jpg) no-repeat; 
+  background: url(../img/background_phone.jpg) no-repeat; 
   background-size: 100%;
 }
 
 .box4 {
   margin-top: 400px;
-  height: 600px;
+  height: 400px;
   background-color: white;
+  z-index: 1;
 }
 .btn_top{
   position: fixed;
@@ -296,4 +298,96 @@ body{
 	font-size: 20px;
 	position: relative;
 	top: -40px;
+}
+.galery{
+	width: 2050px;
+	height: 1000px;
+	background: white;
+}
+.foto1{
+	width: 800px;
+	height: 400px;
+	position: relative;
+	left: 200px;
+	top: -200px;
+}
+.foto1:hover{
+	width: 1200px;
+	height: 600px;
+	position: relative;
+	left: 200px;
+	top: -100px;
+	z-index: 1;
+	background: blur;
+	transition: 1s;
+}
+.foto2{
+	width: 570px;
+	height: 400px;
+	position: relative;
+	display: inline-block;
+	left: 200px;
+	top: -200px;
+}
+.foto2:hover{
+	width: 870px;
+	height: 600px;
+	position: relative;
+	left: -200px;
+	top: -100px;
+	z-index: 1;
+	transition: 1s;
+}
+.foto3{
+	width: 456px;
+	height: 300px;
+	position: relative;
+	display: inline-block;
+	left: 200px;
+	top: -215px;
+}
+.foto3:hover{
+	width: 656px;
+	height: 500px;
+	position: relative;
+	left: 200px;
+	top: -400px;
+	z-index: 1;
+	transition: 2s;
+}
+.foto4{
+	width: 456px;
+	height: 300px;
+	position: relative;
+	display: inline-block;
+	left: 660px;
+	top: -535px;
+}
+.foto4:hover{
+	width: 656px;
+	height: 500px;
+	display: inline-block;
+	position: relative;
+	left: 600px;
+	top: -700px;
+	z-index: 1;
+	transition: 2s;
+}
+.foto5{
+	width: 456px;
+	display: inline-block;
+	height: 300px;
+	position: relative;
+	left: 1120px;
+	top: -855px;
+}
+.foto5:hover{
+	width: 656px;
+	height: 500px;
+	display: inline-block;
+	position: relative;
+	left: 1000px;
+	top: -1000px;
+	z-index: 1;
+	transition: 2s;
 }
