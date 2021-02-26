@@ -59,7 +59,7 @@ body{
 }
 .second_past{
 	background: white;
-	width: 1900px;
+	width: 2000px;
 	height: 1250px;
 	margin-top: 300px;
 	margin-left: -50px;
@@ -522,4 +522,54 @@ overflow: hidden;
 	position: relative;
 	left: 1110px;
 	top: -1240px;
+}
+.cards2{
+	width: 2000px;
+	height: 1000px;
+	background: #f7f7f7;
+	margin-top: -1100px;
+}
+.reviews_text{
+	font-size: 20px;
+	font-family: Arial;
+	color: grey;
+	margin-top: -10px;
+	margin-left: 200px;
+
+}
+.span{
+	color: #37DDE9;
+	font-size: 80px;
+}
+.starter_kit2{
+	font-family: "Gill Sans", sans-serif;
+		font-size: 40px;
+		color: #5e5e5e;
+		padding: 0 50px;
+		margin-left: 200px;
+}
+.underline2{
+		width: 1900px;
+	height: 1px;
+	background-color: black;
+	position: relative;
+	top: -200px;
+}
+.manual2{
+word-spacing: 50px;
+	color: #bababa;
+	position: relative;
+	left: 1000px;
+	top: -150px;
+	font-weight: bold;
+}
+.footer{
+	width: 2000px;
+	height: 200px;
+	background: white;
+}
+.social{
+	position: relative;
+	left: 200px;
+	top: -120px;
 }
