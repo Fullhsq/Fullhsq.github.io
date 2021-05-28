@@ -1,0 +1,288 @@
+body{
+	font-family: 'Rubik Mono One', sans-serif;
+}
+.header{
+	width: 1415px;
+	height: 500px;
+	margin-left: 220px;
+	border-radius: 11px;
+	background: url(../img/header2.png);
+}
+.plant{
+	margin-left: 60px;
+	margin-top: 20px;
+}
+.nav{
+	display: flex;
+	word-spacing: 30px;
+	font-size: 20px;
+	color: white;
+	margin-top: -90px;
+	margin-left: 260px;
+}
+.navcapitan{
+	font-size: 22px;
+	color: #F2EC5C;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.button{
+	 text-decoration: none; 
+	 color: white; 
+	 font-size: 30px;
+	 display: flex; 
+	 position: relative;
+	 left: 20px;
+	 border: 5px solid #F2EC5C; 
+	 margin: 10px; 
+	 margin-top: -25px;
+	 width: 300px;
+	 height: 70px;
+}
+.y{
+	text-decoration: none; 
+	 color: white; 
+	 font-size: 30px; 
+	 margin: 0px; 
+	 padding: 20px;
+	 width: 100px;
+	 height: 100px;
+}
+.y:hover{
+	text-decoration: none; 
+	 color: #b36bb5; 
+	 transition: 1s;
+	 font-size: 35px; 
+	 margin: -20px; 
+	 padding: 19px;
+	 width: 200px;
+	 height: 100px;
+}
+.h3{
+	font-size: 100px;
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+}
+.h32{
+	font-size: 50px;
+	color: white;
+	margin-top: -60px;
+	text-align: center;
+	line-height: 1px;
+}
+.footer{
+	width: 1415px;
+	height: 300px;
+	margin-left: 0px;
+	border-radius: 11px;
+	margin-top: 200px;
+	background: url(../img/footer.png);
+}
+.footertext{
+		color: #79a279;
+	font-size: 30px;
+	position: relative;
+	left: 50px;
+	top: 30px;
+}
+.social{
+	display: flex;
+	position: relative;
+	left: 1100px;
+	top: -50px;
+}
+.teleg{
+	margin-right: 60px;
+}
+.main{
+	width: 1015px;
+	height: 3150px;
+	position: relative;
+	left: 200px;
+	top: 100px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.ecologicproblems{
+	color: #3e403d;
+	font-size: 40px;
+	position: relative;
+	top: 100px;
+	text-align: center;
+	margin-top: 50px;
+}
+.descripton{
+	color: grey;
+	font-size: 15px;
+	position: relative;
+	font-family: Arial;
+	font-weight: bold;
+	top: 100px;
+	left: 140px;
+	width: 700px;
+	text-align: center;
+	margin-top: 50px;
+}
+.problems{
+	width: 1000px;
+	height: 500px;
+	display: flex; 
+	position: relative;
+	top: 200px;
+}
+.elipse1{
+	width: 400px;
+	height: 500px;
+	position: relative;
+}
+.text1{
+	color: #3e403d;
+	font-size: 25px;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	text-align: center;
+	margin-top: 50px;
+}
+.level2{
+	color: #3e403d;
+	font-size: 15px;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	width: 400px;
+	text-align: left;
+	font-family: Arial;
+	font-weight: bold;
+	margin-top: 50px;
+}
+.problems2{
+	width: 1000px;
+	height: 600px;
+	display: flex; 
+	position: relative;
+	top: 200px;
+}
+.problemo{
+	width: 500px;
+	height: 500px;
+	margin-left: 100px;
+}
+.elipse2{
+	width: 400px;
+	height: 500px;
+	position: relative;
+	left:15px;
+}
+.text2{
+	color: #3e403d;
+	font-size: 19px;
+	position: relative;
+	top: 50px;
+	text-align: left;
+	margin-top: 50px;
+}
+.level3{
+	color: #3e403d;
+	font-size: 15px;
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 400px;
+	text-align: left;
+	font-family: Arial;
+	font-weight: bold;
+	margin-top: 50px;
+}
+.pt2{
+	position: relative;
+	left: -900px;
+	top: 100px;
+}
+.problem4{
+	position: relative;
+	left: 900px;
+}
+.text8{
+	color: #3e403d;
+	font-size: 25px;
+	position: relative;
+	left: 450px;
+	top: -375px;
+	text-align: left;
+}
+.level9{
+	color: #3e403d;
+	font-size: 15px;
+	position: relative;
+	left: 450px;
+	top: -350px;
+	width: 400px;
+	text-align: left;
+	font-family: Arial;
+	font-weight: bold;
+}
+.problems6{
+	width: 1000px;
+	height: 600px;
+	display: flex; 
+	position: relative;
+	top: -100px;
+}
+.coronaklacific{
+	position: relative;
+	left: 300px;
+	top: -500px;
+	z-index: 1;
+}
+.simple{
+	font-size: 20px;
+	margin-left: 30px;
+	margin-top: 100px;
+}
+.a{
+	width: 400px;
+	font-size: 15px;
+	margin-top: -200px;
+	margin-left: -20px;
+}
+.a1{
+	font-size: 15px;
+	margin-left: 50px;
+	margin-top: 0px;
+}
+.b{
+	width: 300px;
+	font-size: 15px;
+	margin-left: 0px;
+	margin-top: 50px;
+
+}
+.c{
+	width: 400px;
+	font-size: 15px;
+	margin-top: 50px;
+	margin-left: -20px;
+}
+.d{
+	width: 400px;
+	font-size: 15px;
+	text-align: right;
+	margin-top: -1025px;
+	margin-left: 600px;
+}
+.b1{
+	width: 300px;
+	font-size: 15px;
+	text-align: right;
+	margin-left: 650px;
+	margin-top: 50px;
+}
+.c1{
+	width: 400px;
+	font-size: 15px;
+	text-align: right;
+	M
+	margin-top: 50px;
+	margin-left: 600px;
+}

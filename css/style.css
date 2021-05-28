@@ -1,199 +1,56 @@
 body{
-	font-family: 'Roboto', sans-serif;
-	font-weight: bold;
+	font-family: 'Rubik Mono One', sans-serif;
+	background: url(../img/earth.png);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.bottom{
-	 background: #FFB800;
-	width: 150px;
-	height: 40px;
-	line-height: 40px;
-	border-radius: 10px;
-}
-.advices{
-	text-align: center;
+.h3{
+	font-size: 100px;
 	color: white;
-	font-family: arial;
-	font-size: 20px;
-}
-.active{
-	width: 120px;
-	height: 50px;
-	position: relative;
-	left: 375px;
-	top: 10px;
-	z-index: 1;
-}
-.countainer{
-	width: 1316px;
-	height: 149px;
-	display: flex;
-	margin-left: 400px;
-	position: relative;
-	justify-content: space-between;
-}
-.top{
-	width: 1116px;
-	height: px;;
-	display: flex;
-	margin-left: 500px;
-	position: relative;
-	justify-content: space-between;
-}
-.travel{
-	width: 320px;
-	height: 141px;
-}
-.navigation{
-	width: 748px;
-	height: 52px;
-	margin-top: 20px;
-	word-spacing: 60px;
-	color: #9F9F9F;
-	font-family: arial;
-}
-.logo{
-	width: 304px;
-	height: 90px;
-}
-.a{
-	color: #9F9F9F;
-	font-size: 25px;
-	font-family: arial;
-	margin-left: 50px;
-}
-.topblock1{
-	width: 300px;
-}
-.anthoni{
-	color: #9F9F9F;
-	font-weight: bold;
-	position: relative;
-	top: 40px; 
-	left: 10px;
-}
-.paris{
-	margin-left: 350px;
-}
-.suitcase{
-	width: 547px;
-	height: 392.88px;
-	position: relative;
-	left: -220px;
-	top: -50px;
-}
-.b{
-	font-family: arial;
-	font-size: 40px;
-	position: relative;
-	left: 730px;
-}
-.block{
-	width: 300px;
-	height: 10px;
-	background: #FFB800;
-	margin-left: 750px;
-	margin-top: 70px;
-}
-.text{
 	text-align: center;
-	font-family: arial;
-	width: 600px;
-	margin-left: 590px;
-	font-size: 20px;
+	margin-top: 50px;
 }
-.checkbox1{
-	width: 430px;
-	height: 800px;
-	position: relative;
-	left: -350px;
-	top: -20px;
+.h32{
+	font-size: 50px;
+	color: white;
+	margin-top: -60px;
+	text-align: center;
+	line-height: 1px;
 }
-.checklist{
-	width: 300px;
-	color: #616161;
-	line-height: 40px;
-	list-style-image: url(../img/square.png);
-	text-align: left;
-	position: relative;
-	top: -770px;
-	left: -300px;
+.plant{
+	margin-left: 277px;
+	margin-top: 200px;
 }
-.main{
-	display: flex;
-	margin-left: 50PX;
+.button{
+	 text-decoration: none; 
+	 color: white; 
+	 font-size: 30px;
+	 display: flex; 
+	 position: relative;
+	 left: 230px;
+	 border: 5px solid #F2EC5C; 
+	 margin: 10px; 
+	 margin-top: 20px;
+	 width: 200px;
+	 height: 70px;
 }
-.checkbox2{
-	width: 330px;
-	height: 600px;
-	position: relative;
-	left: -350px;
-	top: -10px;
+.y{
+	text-decoration: none; 
+	 color: white; 
+	 font-size: 30px; 
+	 margin: 0px; 
+	 padding: 20px;
+	 width: 200px;
+	 height: 100px;
 }
-.checklist2{
-	width: 220px;
-	color: #616161;
-	line-height: 40px;
-	list-style-image: url(../img/square.png);
-	text-align: left;
-	position: relative;
-	top: -570px;
-	left: -320px;
-}
-.checkbox3{
-	width: 430px;
-	height: 750px;
-	position: relative;
-	left: -350px;
-	top: -20px;
-}
-.checklist3{
-	width: 300px;
-	color: #616161;
-	line-height: 40px;
-	list-style-image: url(../img/square.png);
-	text-align: left;
-	position: relative;
-	top: -730px;
-	left: -300px;
-}
-.mainpart2{
-	display: flex;
-	margin-left: 50PX;
-	float: top;
-	position: relative;
-	top: -680px;
-}
-.checkbox4{
-	width: 330px;
-	height: 600px;
-	position: relative;
-	left: -350px;
-	top: -200px;
-}
-.checklist4{
-	width: 220px;
-	color: #616161;
-	line-height: 40px;
-	list-style-image: url(../img/square.png);
-	text-align: left;
-	position: relative;
-	top: -760px;
-	left: -300px;
-}
-.checkbox5{
-	width: 330px;
-	height: 500px;
-	position: relative;
-	left: -1110px;
-	top: 420px;
-}
-.checklist5{
-	width: 220px;
-	color: #616161;
-	line-height: 50px;
-	list-style-image: url(../img/square.png);
-	text-align: left;
-	position: relative;
-	top: -60px;
-	left: -1060px;
+.y:hover{
+	text-decoration: none; 
+	 color: #F2EC5C; 
+	 transition: 1s;
+	 font-size: 35px; 
+	 margin: -8px; 
+	 padding: 17px;
+	 width: 200px;
+	 height: 100px;
 }
