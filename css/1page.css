@@ -49,11 +49,11 @@ body{
 }
 .y:hover{
 	text-decoration: none; 
-	 color: #b36bb5; 
+	 color: #F2EC5C; 
 	 transition: 1s;
 	 font-size: 35px; 
-	 margin: -8px; 
-	 padding: 19px;
+	 margin-top: -10px;
+	 margin-left: -20px;
 	 width: 200px;
 	 height: 100px;
 }

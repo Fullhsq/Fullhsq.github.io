@@ -1,0 +1,349 @@
+body{
+	font-family: 'Rubik Mono One', sans-serif;
+}
+.header{
+	width: 1415px;
+	height: 500px;
+	margin-left: 220px;
+	border-radius: 11px;
+	background: url(../img/way1.png);
+}
+.plant{
+	margin-left: 60px;
+	margin-top: 20px;
+}
+.nav{
+	display: flex;
+	word-spacing: 30px;
+	font-size: 20px;
+	color: white;
+	margin-top: -90px;
+	margin-left: 260px;
+}
+.navcapitan{
+	font-size: 22px;
+	color: white;
+	margin-right: 30px;
+	text-decoration: none;
+	margin-left: 30px;
+}
+.button{
+	 text-decoration: none; 
+	 color: #F2EC5C; 
+	 font-size: 30px;
+	 display: flex; 
+	 position: relative;
+	 left: 60px;
+	 border: 5px solid #F2EC5C; 
+	 margin: 10px; 
+	 margin-top: -25px;
+	 width: 270px;
+	 height: 70px;
+}
+.y{
+	text-decoration: none; 
+	 color: #F2EC5C; 
+	 font-size: 30px; 
+	 margin: 0px; 
+	 padding: 20px;
+	 width: 300px;
+	 height: 80px;
+}
+.y:hover{
+	text-decoration: none; 
+	 color: #F2EC5C; 
+	 transition: 1s;
+	 font-size: 35px; 
+	 margin-top: -10px;
+	 margin-left: -20px;
+	 width: 200px;
+	 height: 100px;
+}
+.h3{
+	font-size: 100px;
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+}
+.h4{
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.h5{
+	position: relative;
+	top: 20px;
+	left: 200px;
+}
+.h6{
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	margin-top: 40px;
+	line-height: 15px;
+}
+.h32{
+	font-size: 50px;
+	color: white;
+	margin-top: -60px;
+	text-align: center;
+	line-height: 1px;
+}
+.footer{
+	width: 1415px;
+	height: 300px;
+	margin-left: 0px;
+	border-radius: 11px;
+	margin-top: 200px;
+	background: url(../img/footer.png);
+}
+.footertext{
+		color: #79a279;
+	font-size: 30px;
+	position: relative;
+	left: 50px;
+	top: 30px;
+}
+.social{
+	display: flex;
+	position: relative;
+	left: 1100px;
+	top: -50px;
+}
+.teleg{
+	margin-right: 60px;
+}
+.g{
+	font-size: 20px;
+	color: white;
+	margin-right: 30px;
+	text-decoration: none;
+}
+.a{
+	font-size: 20px;
+	color: white;
+	margin-right: 20px;
+	text-decoration: none;
+}
+.main{
+	width: 1155px;
+	height: 2650px;
+	position: relative;
+	left: 125px;
+	top: 100px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.ecologicproblems{
+	color: #3e403d;
+	font-size: 40px;
+	position: relative;
+	top: 100px;
+	line-height: 10px;
+	text-align: center;
+	margin-top: 50px;
+}
+.ecologicproblems2{
+	color: #3e403d;
+	font-size: 40px;
+	position: relative;
+	top: 100px;
+	left: -270px;
+	background: white;
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+}
+.container{
+	display: inline-block;
+	width: 1015px;
+	height: 900px;
+	justify-content: space-around;
+}
+.grid-countainer-one{
+	width: 487px;
+	height: ;
+	display: grid;
+	grid-row-gap: 30px;
+	grid-template-columns: 467px;
+	position: relative;
+	top: 200px;
+	left: 60px;
+	grid-template-rows: 76px 300px 76px 300px; 
+}
+.box:nth-child(1){
+	background: rgba(255, 99, 99, 0.85);
+	box-shadow: 10px 20px 40px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 30px;
+	align-content: center;
+	justify-content: center;
+}
+.box:nth-child(2){
+	background: rgba(255, 99, 99, 0.85);
+	box-shadow: 10px 20px 40px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 30px;
+	align-content: center;
+	justify-content: center;
+}
+.box:nth-child(3){
+	background: rgba(141, 107, 213, 0.78);
+	box-shadow: 10px 20px 40px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 30px;
+	position: relative;
+	top: 20px;
+	align-content: center;
+	justify-content: center;
+}
+.box:nth-child(4){
+	background: rgba(141, 107, 213, 0.78);
+	box-shadow: 10px 20px 40px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 30px;
+	position: relative;
+	top: 20px;
+	align-content: center;
+	justify-content: center;
+}
+.grid-countainer-two{
+	width: 487px;
+	height: ;
+	display: grid;
+	grid-row-gap: 30px;
+	grid-template-columns: 467px;
+	position: relative;
+	top: -642px;
+	left: 620px;
+	grid-template-rows: 76px 300px 76px 300px; 
+}
+.box1:nth-child(1){
+	background: #67ACAC;
+	box-shadow: 10px 20px 40px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 30px;
+	align-content: center;
+	justify-content: center;
+}
+.box1:nth-child(2){
+	background: #67ACAC;
+box-shadow: 10px 20px 40px 10px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+	align-content: center;
+	justify-content: center;
+}
+.box1:nth-child(3){
+	background: #78A178;
+	box-shadow: 10px 20px 40px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 30px;
+	position: relative;
+	top: 20px;
+	align-content: center;
+	justify-content: center;
+}
+.box1:nth-child(4){
+	background: #78A178;
+	box-shadow: 10px 20px 40px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 30px;
+	position: relative;
+	top: 20px;
+	align-content: center;
+	justify-content: center;
+}
+.greenborder{
+	width: 800px;
+	height: 300px;
+	border-radius: 30px;
+	border: 5px solid #78A178;
+	position: relative;
+	left: -450px;
+	z-index: -1;
+}
+.greenbordertext{
+	color: black;
+	text-align: center;
+	position: relative;
+	top: 70px;
+	left: 100px;
+	width: 600px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+
+}
+.card1{
+	box-shadow: 0px 0px 80px 7px rgba(0, 0, 0, 0.2);
+	width: 300px;
+	height: 420px;
+	border-radius: 30px;
+	line-height: 13px;
+	text-align: center;
+	position: relative;
+	left: -590px;
+	top: 200px;
+}
+.card2{
+	box-shadow: 0px 0px 80px 7px rgba(0, 0, 0, 0.2);
+	width: 330px;
+	height: 500px;
+	border-radius: 30px;
+	line-height: 13px;
+	text-align: center;
+	position: relative;
+	left: -210px;
+	top: -280px;
+}
+.card3{
+	box-shadow: 0px 0px 80px 7px rgba(0, 0, 0, 0.2);
+	width: 300px;
+	height: 420px;
+	border-radius: 30px;
+	line-height: 13px;
+	text-align: center;
+	position: relative;
+	left: 200px;
+	top: -775px;
+}
+.howdays1{
+	color: #6D854E;
+	font-family: 'Rubik', sans-serif;
+	font-size: 13px;
+}
+.howdays1:nth-child(2){
+	color:#98BCBC;
+	font-family: 'Rubik', sans-serif;
+	font-size: 13px;
+}
+.h7{
+	color: black;
+	font-size: 28px;
+	position: relative;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.h8{
+	color: black;
+	font-size: 18px;
+	width: 230px;
+	position: relative;
+	left: 30px;
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+	line-height: 20PX;
+}
+.h8:nth-child(2){
+	color: black;
+	font-size: 18px;
+	width: 230px;
+	position: relative;
+	left: 60px;
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+	line-height: 22PX;
+}
+.words{
+	width: 300px;
+}
+.words2{
+	width: 330px;
+}

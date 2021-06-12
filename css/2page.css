@@ -23,8 +23,8 @@ body{
 .navcapitan{
 	font-size: 22px;
 	color: #F2EC5C;
-	margin-right: 30px;
-	margin-left: 30px;
+	margin-right: -20px;
+	margin-left: 0px;
 }
 .button{
 	 text-decoration: none; 
@@ -32,11 +32,12 @@ body{
 	 font-size: 30px;
 	 display: flex; 
 	 position: relative;
-	 left: 20px;
+	 left: 
+	 110px;
 	 border: 5px solid #F2EC5C; 
 	 margin: 10px; 
 	 margin-top: -25px;
-	 width: 300px;
+	 width: 270px;
 	 height: 70px;
 }
 .y{
@@ -50,13 +51,19 @@ body{
 }
 .y:hover{
 	text-decoration: none; 
-	 color: #b36bb5; 
+	 color: #F2EC5C; 
 	 transition: 1s;
 	 font-size: 35px; 
-	 margin: -20px; 
-	 padding: 19px;
+	 margin-top: -10px;
+	 margin-left: -20px;
 	 width: 200px;
 	 height: 100px;
+}
+.g2{
+	font-size: 20px;
+	color: white;
+	margin-left: 50px;
+	text-decoration: none;
 }
 .h3{
 	font-size: 100px;
@@ -97,7 +104,7 @@ body{
 }
 .main{
 	width: 1015px;
-	height: 3150px;
+	height: 3250px;
 	position: relative;
 	left: 180px;
 	top: 100px;
@@ -152,7 +159,7 @@ body{
 	left: 50px;
 	width: 400px;
 	text-align: left;
-	font-family: Arial;
+	font-family: 'Rubik', sans-serif;
 	font-weight: bold;
 	margin-top: 50px;
 }
@@ -242,7 +249,10 @@ body{
 }
 .a{
 	width: 400px;
-	font-size: 15px;
+	font-size: 25px;
+	color: grey;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
 	margin-top: -200px;
 	margin-left: -20px;
 }
@@ -252,37 +262,56 @@ body{
 	margin-top: 0px;
 }
 .b{
+	font-size: 25px;
+	color: grey;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
 	width: 300px;
-	font-size: 15px;
 	margin-left: 0px;
 	margin-top: 50px;
 
 }
 .c{
 	width: 400px;
-	font-size: 15px;
+	font-size: 25px;
+	color: grey;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: grey;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
 	margin-top: 50px;
 	margin-left: -20px;
 }
 .d{
 	width: 400px;
 	font-size: 15px;
+	font-size: 25px;
+	color: grey;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
 	text-align: right;
 	margin-top: -1025px;
 	margin-left: 600px;
 }
 .b1{
 	width: 300px;
-	font-size: 15px;
+	font-size: 25px;
+	color: grey;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
 	text-align: right;
 	margin-left: 650px;
 	margin-top: 50px;
 }
 .c1{
 	width: 400px;
-	font-size: 15px;
+	font-size: 25px;
+	color: grey;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
 	text-align: right;
-	M
 	margin-top: 50px;
 	margin-left: 600px;
 }
